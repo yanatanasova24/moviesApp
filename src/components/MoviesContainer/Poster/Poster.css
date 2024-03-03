@@ -1,0 +1,54 @@
+.Poster{
+    height: 280px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.Poster div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    transition: .3s all;
+    position: relative;
+}
+
+.Poster p{
+    display: block;
+    margin-top: .5em;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    color: transparent;
+    transition: .3s color;
+}
+
+.Poster p:first-child{
+    font-size: 20px;
+}
+
+.Poster:hover>div{
+    backdrop-filter: blur(5px) brightness(50%);
+}
+
+.Poster:hover p{
+    color: #fff;
+}
+
+.Poster span{
+    display: block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(84, 76, 131, .8);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    color: #fff;
+    line-height: 44px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}

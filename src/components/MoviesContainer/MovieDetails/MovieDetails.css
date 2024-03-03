@@ -1,0 +1,97 @@
+.MovieDetails{
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    border-radius: 0 0 2em 2em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    display: flex;
+    justify-content: start;
+}
+
+.MovieDetails img{
+    border-radius: 20px;
+}
+
+.RightWrap{
+    padding: 0 3em;
+    width: 60%;
+}
+
+.MovieDetails h2{
+    margin-top: .5em;
+    color: #3f3961;
+}
+
+.MovieDetails p{
+    color: #6d697d;
+}
+
+.infoWrap{
+    display: flex;
+    justify-content: start;
+    color: #8f8e9e;
+}
+
+.infoWrap b{
+    padding-right: 1em;
+    font-family: "Raleway", sans-serif;
+}
+
+.tagLine{
+    color: #3f3961;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-style: italic;
+}
+
+.LeftWrap img{
+    margin-bottom: .7em;
+    max-width: 100%;
+}
+
+.LeftWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.LeftWrap p{
+    margin-top: .5em;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.LeftWrap span{
+    font-size: 18px;
+    color: #8b6cca;
+}
+
+.Rating{
+    display: flex;
+    gap: 1em;
+}
+
+.Rating p:last-child{
+    color: #8f8e9e;
+}
+
+.GenresWrap{
+    display: flex;
+}
+
+.dark .MovieDetails{
+    background-color: rgba(15, 22, 42, .9);
+    backdrop-filter: blur(5px);
+}
+
+.dark .MovieDetails h2,
+.dark .tagLine{
+    color: #fff;
+}
+
+.dark .MovieDetails p{
+    color: #b3b0c0;
+}

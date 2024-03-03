@@ -1,0 +1,15 @@
+.MainLayout{
+    background-size: cover;
+    background-position: center 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+.MainLayout>div{
+    width: 90%;
+}

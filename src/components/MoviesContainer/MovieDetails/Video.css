@@ -1,0 +1,17 @@
+.VideoWrap{
+    margin-top: 2em;
+}
+
+.VideoWrap iframe{
+    border-radius: 20px;
+    border: none;
+}
+
+.VideoWrap h4{
+    color: #3f3961;
+    font-family: "Raleway", sans-serif;
+}
+
+.dark .VideoWrap h4{
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+.GenreBadge{
+    display: block;
+    background-color: #8b6cca;
+    color: #fff;
+    padding: .2em 1em .3em;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-right: .5em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: .3s background-color;
+    margin-bottom: 1em;
+}
+
+.GenreBadge:hover{
+    background-color: #3f3961;
+}
